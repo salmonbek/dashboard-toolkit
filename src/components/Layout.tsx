@@ -31,7 +31,7 @@ const AdminLayout = () => {
         collapsible
         collapsed={collapsed}
       >
-        <div className="admin-logo">TS</div>
+        <div className="admin-logo"></div>
         <Menu
           theme="dark"
           mode="inline"
@@ -45,12 +45,12 @@ const AdminLayout = () => {
             {
               key: "/categories",
               icon: <UserOutlined />,
-              label: <Link to="/categories">Categories</Link>,
+              label: <Link to="/categories">Student</Link>,
             },
             {
               key: "/products",
               icon: <VideoCameraOutlined />,
-              label: <Link to="/products">Products</Link>,
+              label: <Link to="/products">Teacher</Link>,
             },
           ]}
         />
